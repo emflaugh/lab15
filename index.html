@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="madLibs" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Libs</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>MAD LIBS</h1>
+      <h2>"The Perfect Cover Letter"</h2>
+      <h3>Having trouble writing your cover letter?</h3>
+      <h3>Use this handy template and land your dream job!</h3>
+    </header>
+
+
+    <!-- <a href="#!/home">Home</a> -->
+    <a href="#!/form">Input</a>
+    <a href="#!/display">Output</a>
+
+
+
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="controller.js"></script>
+    <script src="input-controller.js"></script>
+    <script src="output-controller.js"></script>
+    <script src="service.js"></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+html {
+background-image: url('http://2014hs.igem.org/wiki/images/e/ee/Yellow_notebook_paper_by_orangedotgreen.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left;
+}
+header {
+  font-family: 'Coming Soon', cursive;
+}
+body {
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: lighter;
+  color: #166888;
+}
+form {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  border-radius: 20px;
+  border: 5px solid #28aadc;
+}
+input:hover {
+  color: #166888;
+  border: 5px solid #166888
+}
+button {
+    padding: 15px;
+    color: #28aadc;
+    background-color: #fff;
+    font-size: 22px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 5px solid #28aadc;
+
+}
+button:hover {
+  color: #166888;
+  border: 5px solid #166888
+}
+button::active {
+  color: white;
+  background-color: #166888;
+}
+
+.container {
+  width: 700px;
+  background-image: url('http://bradleywpatton.com/images/paper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Coming Soon', cursive;
+  font-size: 30px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 42px 20px 20px 127px;
+}
+p {
+  width: 80%;
+}
+.word {
+  font-weight: bold;
+  color: red;
+}
+a {
+    display: inline-block;
+    color: #0C2340;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 15px;
+    color: #28aadc;
+    background-color: #fff;
+    font-size: 22px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 5px solid #28aadc;
+    margin-bottom: 50px;
+}
+a:hover {
+    background-color: #ddd;
+    border: 5px solid #166888
+}
+a:active {
+    color: white;
+    background-color: #166888;
+}
